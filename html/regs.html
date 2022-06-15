@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>About Me | Registration Form</title>
+</head>
+<body>
+   <header>
+        <nav id="navbar">
+            <div class="container">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">Log In</a></li>
+                    <li><a class="current" href="regs.html">Registration Form</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="container-l">
+        <main class="container-reg">
+            <div class="title">Registration</div>
+            <form>
+                <div class="user-details">
+                    <div class="input-box">
+                        <label for="name" class="details">First Name</label>
+                        <input type="text" placeholder="Enter your name" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="name" class="details">Last Name</label>
+                        <input type="text" placeholder="Last name" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email" class="details">Email</label>
+                        <input type="text" placeholder="Email address" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="phone" class="details">Phone Number</label>
+                        <input type="text" placeholder="+234" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="country" class="details">Country</label>
+                        <input type="text" placeholder="country" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="name" class="details">State/Province</label>
+                        <input type="text" placeholder="state" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="password" class="details">Password</label>
+                        <input type="password" placeholder="password" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="name" class="details">Confirm password</label>
+                        <input type="password" placeholder="confirm password" required>
+                    </div>
+                </div>
+                <div class="gender-details">
+                    <span class="gender-title">Gender:</span>
+                    <div class="category">
+                        <label for="">
+                            <select name="gender" id="gen">
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="prefer not to say">Prefer not to say</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Register">
+                </div>
+            </form>
+        </main>
+    </section>
+    <footer id="main-footer">
+      <p> &copy; 2021, All Rights Reserved</p>
+    </footer>
+</body>
+</html>
